@@ -1,0 +1,30 @@
+{
+   "users":[
+      {
+         "id": 1,
+         "displayName": "Daniel",
+         "username": "Patrick",
+         "password": "password123"
+      }
+   ],
+   "posts": [
+      {
+         "id": 1,
+         "userId": 1,
+         "title": "First Post",
+         "body": "Body of the first Post",
+         "dateCreated": "",
+         "author": "Daniel"
+      }
+   ],
+   "comments": [
+      {
+         "id": 1,
+         "postId": 1,
+         "userId": 1,
+         "body": "Comment body text",
+         "author": "Daniel",
+         "title": "Comment Title"
+      }
+   ]
+}
